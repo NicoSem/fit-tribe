@@ -13,6 +13,7 @@ function App() {
         <div className="page-body">
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/new-workout" element={<NewWorkoutPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </div>
