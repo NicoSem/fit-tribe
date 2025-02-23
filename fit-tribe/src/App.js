@@ -4,7 +4,7 @@ import './App.css';
 
 import HomePage from './pages/home/HomePage.js';
 import NotFoundPage from './pages/notfound/NotFoundPage.js';
-import NewWorkoutPage from './pages/workout/NewWorkoutPage.js';
+import NewWorkoutPage from './pages/newworkout/NewWorkoutPage.js';
 
 function App() {
   return (

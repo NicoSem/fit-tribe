@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import WorkoutsList from '../../components/workout/WorkoutList';
 
 function HomePage() {
   return (
@@ -9,6 +10,7 @@ function HomePage() {
       <Link to="/new-workout">
         <button type="button">Add New Workout</button>
       </Link>
+      <WorkoutsList/>
     </div>
   );
 }
